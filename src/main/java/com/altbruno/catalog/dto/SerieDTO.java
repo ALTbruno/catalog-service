@@ -5,8 +5,9 @@ import lombok.Data;
 import java.util.List;
 
 @Data
-public class GenreDTO {
+public class SerieDTO {
+	private Integer id;
+	private String name;
 	private String genre;
-	private List<MovieDTO> movies;
-	private List<SerieDTO> series;
+	private List<SeasonDTO> seasons;
 }
